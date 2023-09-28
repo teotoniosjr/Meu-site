@@ -1,1 +1,20 @@
 @import url(css/reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@100;400&family=Judson:ital,wght@0,400;0,700;1,400&family=Jura:wght@400;600&family=Kite+One&display=swap');
+@import url(css/cabecalho.css);
+
+:root{
+    --fonte-primaria: 'Grandstander', cursive;
+    --fonte-titulo: 'Judson', serif;
+    --fonte-secundaria: 'Jura', sans-serif;
+    --fonte-terceira: 'Kite One', sans-serif;
+    --cor-fundo: linear-gradient(21deg, #217D93 0.77%, #8FC2CF 81.51%);
+    --cor-fria-primaria: #219EBC;
+    --cor-fria-secundaria: #023047;
+    --cor-quente-primaria: #FFB703;
+    --cor-quente-secundaria: #FB8500;
+}
+
+body {
+    background: var(--cor-fundo);
+    font-family: var(--fonte-primaria);
+}
