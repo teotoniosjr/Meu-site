@@ -15,27 +15,27 @@
             <img src="img/logo.jpg" alt="Foto da logo com a cara do professor por IA" class="cabecalho_logo">
 
             <h1 class="cabecalho_titulo">HOME</h1>
-  
-            <input id="toggle" type="checkbox"></input>
+            
+            <div class="menu">
+                <input id="toggle" type="checkbox"></input>
 
-            <label for="toggle" class="hamburger">
-                <div class="top-bun"></div>
-                <div class="meat"></div>
-                <div class="bottom-bun"></div>
-            </label>
+                <label for="toggle" class="hamburger">
+                    <div class="top-bun"></div>
+                    <div class="meat"></div>
+                    <div class="bottom-bun"></div>
+                </label>
 
-            <div class="nav">
-                <div class="nav-wrapper">
-                    <nav>
-                        <a href="#">HOME</a><br>
-                        <a href="#">TURMAS</a><br>
-                        <a href="#">MEUS PROJETOS</a><br>
-                        <a href="#">PROJETO ALUNOS</a>
-                    </nav>
+                <div class="nav">
+                    <div class="nav-wrapper">
+                        <nav>
+                            <a href="#">HOME</a><br>
+                            <a href="#">TURMAS</a><br>
+                            <a href="#">MEUS PROJETOS</a><br>
+                            <a href="#">PROJETO ALUNOS</a>
+                        </nav>
+                    </div>
                 </div>
             </div>
-
-        </div>
     </header>
     <main>
         <section class="sobre">
@@ -57,12 +57,45 @@
                 <span class="sobre_icone"><i class="fa-solid fa-caret-down"></i></span>
             </div>
         </section>
-
+        <section class="paginas">
+            <div class="paginas_caixa paginas_meus-projetos">
+                <lord-icon
+                    class="paginas_icone icone_meus-projetos"
+                    src="https://cdn.lordicon.com/teydnehw.json"
+                    trigger="hover"
+                    colors="primary:#023047,secondary:#023047,tertiary:#ebe6ef,quaternary:#219ebc,quinary:#ffb703,senary:#fb8500,septenary:#023047"
+                    style="width:120px;height:120px">
+                </lord-icon>
+                <h3 class="paginas_titulo">Meus projetos</h3>
+            </div>
+            <div class="paginas_caixa paginas_turmas">
+                <lord-icon
+                    class="paginas_icone icone_turmas"
+                    src="https://cdn.lordicon.com/hgqdtxby.json"
+                    trigger="hover"
+                    colors="primary:#121331,secondary:#ffb703,tertiary:#ebe6ef"
+                    style="width:120px;height:120px">
+                </lord-icon>
+                <h3 class="paginas_titulo">Turmas de Programação</h3>
+            </div>
+            <div class="paginas_caixa paginas_melhores-projetos">
+                <lord-icon
+                    class="paginas_icone icone_melhores-projetos"
+                    src="https://cdn.lordicon.com/igciyimj.json"
+                    trigger="hover"
+                    colors="primary:#023047,secondary:#ffb703,tertiary:#fb8500,quaternary:#219ebc,quinary:#219ebc,senary:#ebe6ef"
+                    style="width:120px;height:120px">
+                </lord-icon>
+                <h3 class="paginas_titulo">Melhores projetos</h3>
+            </div>
+        </section>
     </main>
     <footer>
 
     </footer>
     <script href="main.js"></script>
+    <script src="https://cdn.lordicon.com/lordicon-1.1.0.js"></script>
+    
 </body>
 
 </html>

@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@100;400&family=Judson:ital,wght@0,400;0,700;1,400&family=Jura:wght@400;600&family=Kite+One&display=swap');
 @import url(css/cabecalho.css);
 @import url(css/sobre.css);
+@import url(css/paginas.css);
 
 :root{
     --fonte-primaria: 'Grandstander', cursive;
